@@ -1,0 +1,16 @@
+
+
+spring:
+  profiles:
+    active:
+      -dev
+---
+spring:
+  application:
+    name:  SHcloud-config-dev
+  profiles: dev
+---
+spring:
+  profiles:test
+  application:
+    name: SHcloud-config-test
