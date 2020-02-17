@@ -11,6 +11,6 @@ spring:
   profiles: dev
 ---
 spring:
-  profiles:test
+  profiles: test
   application:
     name: SHcloud-config-test
